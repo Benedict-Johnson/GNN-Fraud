@@ -139,16 +139,6 @@ and produces structured outputs such as:
 
 [INSERT IMAGE HERE: Sample Groq Output Screenshot]
 
-Example explanation:
-```
-Risk Summary: This transaction exhibits a high graph-based fraud risk score and is connected to a cluster of suspicious transactions.
-
-Why It Was Flagged: The transaction amount is unusually small and occurs during late hours, with multiple neighboring transactions exhibiting fraudulent behavior.
-
-Possible Fraud Pattern: The pattern resembles card-testing fraud where attackers attempt small transactions before executing larger ones.
-
-Recommended Investigator Action: Review related transactions and monitor the associated card account for further suspicious activity.
-```
 
 ### 📁 Additional LLM Outputs
 
