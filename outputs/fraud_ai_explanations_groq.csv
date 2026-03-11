@@ -1,0 +1,56 @@
+Time,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,V12,V13,V14,V15,V16,V17,V18,V19,V20,V21,V22,V23,V24,V25,V26,V27,V28,Amount,Class,Hour,LogAmount,NightTransaction,gnn_risk_score,gnn_prediction,cluster_id,node_degree,neighbor_fraud_ratio,llm_explanation
+57027.0,-2.33565492855671,2.22537994112476,-3.37945038583039,2.17853822878821,-3.56826371512658,0.316813583664713,-1.73494800330036,1.4491394338594,-1.98003348126993,-5.71150474047788,1.83721490161197,-4.5403416445233,0.747845860345767,-6.28431406964108,-0.128887216546494,-3.5632394063049,-7.36832064555377,-2.69295315786876,-0.450550113544917,0.274027122680488,0.78554012192761,0.29741198434836,0.308536146370564,-0.598415746387816,-0.121850330815637,-0.491018310202025,0.701606041424924,0.206966343288918,444.17,1,15,6.098456231686145,0,1.0,1,0,41,0.34146341463414637,"Risk Summary:
+The transaction has a high risk of being fraudulent, with a GNN fraud risk score of 1.0000 and a model predicted fraud probability of 1.0.
+
+Why It Was Flagged:
+The transaction was flagged due to its high fraud risk scores, high graph node degree (41.0), and a significant neighbor fraud ratio (0.3415), indicating potential connections to other fraudulent activities.
+
+Possible Fraud Pattern:
+The transaction may be part of a larger fraud pattern involving a network of related accounts or individuals, given the high graph node degree and neighbor fraud ratio. The substantial amount of $444.17 and the log amount of 6.0985 may also suggest an attempt to exploit or manipulate the system.
+
+Recommended Investigator Action:
+Review the transaction history and account activity of the involved parties, and investigate potential connections to other suspicious transactions or accounts. Additionally, verify the authenticity of the transaction and the identity of the parties involved to determine if it is a legitimate transaction or a fraudulent activity."
+102625.0,-4.22122078925031,2.87112058054735,-5.8887158872207,6.89095207502484,-3.40489435037622,-1.15439396843915,-7.73992801001653,2.85136330092288,-2.50756869395709,-5.11072764247853,5.35088988417692,-9.29980722738699,2.79314035729228,-6.10655192524523,-2.10694702580884,-6.25062921491661,-13.5663252216994,-4.19278019670633,0.510570181831806,-0.227881506131312,1.62059124560534,1.56794700869044,-0.578007459600926,-0.0590448081819941,-1.82916881940751,-0.0724287202294822,0.136734308772186,-0.599847542493268,7.59,1,4,2.150598735996164,1,1.0,1,0,26,0.34615384615384615,"Risk Summary:
+The transaction has a high risk of being fraudulent, with a GNN fraud risk score of 1.0000 and a model predicted fraud score of 1.0.
+
+Why It Was Flagged:
+The transaction was flagged due to its unusual timing (occurring at 4:00 AM, indicated by ""Hour of day: 4.0"" and ""Night transaction: 1.0""), and the high neighbor fraud ratio of 0.3462, which suggests that the transaction is connected to other potentially fraudulent activities.
+
+Possible Fraud Pattern:
+The pattern may indicate a scenario where a fraudster is using a compromised account to make small, frequent transactions during unusual hours, potentially to avoid detection or to test the account's limits.
+
+Recommended Investigator Action:
+The investigator should review the account's transaction history to identify any other suspicious activities, verify the user's identity and confirm the transaction with the account holder to determine if the transaction was legitimate or not. Additionally, the investigator should analyze the graph node degree and neighbor fraud ratio to understand the transaction's connections to other potential fraudulent activities."
+93860.0,-10.8502815883108,6.72746568826853,-16.760583409542,8.42583167857118,-10.2526968683093,-4.19217104406337,-14.0770860104531,7.16828793346092,-3.68324217370244,-15.2399619587112,8.03070840755191,-16.0603057628826,0.270529742348469,-14.9529810390579,-0.241094883743813,-11.866730636746,-15.4869899240937,-5.74865155747378,4.1300314273319,-0.646818272966729,2.5416369467068,0.135534921100722,-1.02396689219897,0.40626452579196,0.106592778669641,-0.0262323892202069,-1.46463002356247,-0.411681819907858,78.0,1,2,4.3694478524670215,1,1.0,1,0,31,0.6774193548387096,"Risk Summary:
+The transaction has a high risk of being fraudulent, with a GNN fraud risk score of 1.0000 and a model predicted fraud score of 1.0.
+
+Why It Was Flagged:
+The transaction was flagged due to several suspicious characteristics, including a high night transaction indicator (1.0), a high neighbor fraud ratio (0.6774), and a high graph node degree (31.0), which may indicate a complex or anomalous transaction pattern. Additionally, the transaction occurred at 2:00 AM, which is an unusual hour for a legitimate transaction.
+
+Possible Fraud Pattern:
+The transaction may be part of a larger fraud pattern involving a network of related accounts or individuals, given the high graph node degree and neighbor fraud ratio. The high risk scores from the GNN and model predicted fraud also suggest a potential fraud pattern.
+
+Recommended Investigator Action:
+Investigate the transaction history and account activity of the involved parties, including any related accounts or individuals in the network. Verify the legitimacy of the transaction and the identities of the parties involved. Review any available additional information, such as IP addresses, device information, or other transaction data, to determine if the transaction is indeed fraudulent."
+41305.0,-12.9809425647533,6.72050777097643,-13.4556359425571,8.69861009281133,-11.4795517833437,-2.68151865053833,-14.0192907576919,8.21819051252864,-7.93089996826719,-12.6959474039839,5.58936163192341,-11.9608660326622,1.53867076186333,-9.88721406724695,0.6339792179337,-11.3502438549644,-21.7101876525534,-8.85945192496352,3.62971365041526,-0.84330261969681,2.54962823474498,-0.532227763596568,-0.235096473604284,0.673209169467055,0.22659797207791,-0.0061678581900246,-1.18569550568181,-0.747361321404312,59.68,1,11,4.105614154480332,0,1.0,1,0,36,0.3055555555555556,"Risk Summary:
+The transaction has a high risk of being fraudulent, as indicated by the model predicted fraud score of 1.0 and the GNN fraud risk score of 1.0000.
+
+Why It Was Flagged:
+The transaction was flagged due to its high predicted fraud score and the presence of suspicious characteristics, including a high neighbor fraud ratio of 0.3056, which suggests that the transaction is connected to other potentially fraudulent activities.
+
+Possible Fraud Pattern:
+The transaction may be part of a larger fraud pattern involving a network of related accounts or individuals, as evidenced by the graph node degree of 36.0, which indicates a high level of connectivity.
+
+Recommended Investigator Action:
+Investigate the transaction and the associated account activity, focusing on the connections between this transaction and other potentially fraudulent activities. Review the account history, transaction patterns, and customer information to determine the legitimacy of the transaction and take appropriate action to prevent further potential fraud."
+133731.0,1.17663267315551,3.14191813880044,-6.14044483643302,5.5218205893507,1.76851488910857,-1.72718569844821,-0.932428910444584,0.292796545267059,-3.15682655843537,-3.89824038104731,4.77672033006624,-4.15249885001879,-0.472990802974345,-10.2588514782991,-0.533455591604466,0.458138563036142,0.167601789076859,1.4043108943267,-1.87401526330162,0.329567972643983,0.1293716296303,-0.803020814325114,-0.0740983557012839,-0.0310844052836625,0.375366225335466,0.0658967838964971,0.488257738746484,0.325871630319106,0.0,1,13,0.0,0,1.0,1,0,51,0.3333333333333333,"Risk Summary:
+The transaction has been flagged as high-risk due to a combination of factors indicating potential fraudulent activity.
+
+Why It Was Flagged:
+The transaction was flagged because the Model predicted fraud score is 1.0, indicating a high probability of fraud. Additionally, the Neighbor fraud ratio is 0.3333, which suggests that approximately 33% of the neighboring transactions in the graph are fraudulent. The Graph node degree of 51.0 also implies a high level of connectivity, which could be indicative of a complex fraud scheme.
+
+Possible Fraud Pattern:
+The transactions may be part of a larger money laundering or fraudulent network, where the high graph node degree and neighbor fraud ratio suggest a coordinated effort to manipulate transactions. The fact that the Amount and LogAmount are 0.0 may indicate an attempt to conceal or test the system.
+
+Recommended Investigator Action:
+Further investigation is recommended to examine the transaction history and network connections of the involved parties. The investigator should review the transaction logs to identify any patterns or anomalies, and verify the authenticity of the transactions. Additionally, the investigator may want to interview the parties involved and gather more information to determine the legitimacy of the transactions and the potential existence of a larger fraud scheme."
