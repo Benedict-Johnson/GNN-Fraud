@@ -35,7 +35,7 @@ Interactive Fraud Analytics Dashboard (Tableau)
 
 Dataset used:
 
-European Cardholder Credit Card Fraud Dataset
+[European Cardholder Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 Features include anonymized PCA-transformed attributes (V1–V28), transaction time, and transaction amount.
 
@@ -134,7 +134,8 @@ and produces structured outputs such as:
 
 ### 💬 Sample LLM Output
 
-(Placeholder – insert screenshot from Jupyter)
+<img width="1362" height="383" alt="image" src="https://github.com/user-attachments/assets/d3ea934e-04bc-48ac-a21b-8e0d94ec8d7c" />
+
 
 [INSERT IMAGE HERE: Sample Groq Output Screenshot]
 
@@ -168,7 +169,8 @@ Dashboard features include:
 - Fraud activity patterns by hour
 - High-risk transaction exploration
 
-(Placeholder – insert Tableau dashboard screenshot)
+<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/eff6545a-9ad5-4fea-af7a-9844a2a09533" />
+
 
 [INSERT IMAGE HERE: Tableau Dashboard Screenshot]
 
@@ -178,17 +180,15 @@ For a stronger portfolio presentation, the following visuals can also be added:
 
 ### 🔗 Graph Network Visualization
 
-A network visualization showing suspicious transaction clusters.
-
-[INSERT IMAGE HERE: Graph Network Visualization]
-
 ### 📉 Fraud Risk Score Distribution
 
-[INSERT IMAGE HERE: Risk Score Histogram]
+<img width="950" height="763" alt="image" src="https://github.com/user-attachments/assets/d1c3857b-bfa8-4adf-9f4d-3216195aadb4" />
+
 
 ### 💰 Amount vs Risk Scatter Plot
 
-[INSERT IMAGE HERE: Transaction Amount vs Risk Visualization]
+<img width="928" height="750" alt="image" src="https://github.com/user-attachments/assets/d88ca822-e722-4083-b888-dd3ca9fa29da" />
+
 
 ## 🛠️ Technologies Used
 
@@ -243,6 +243,3 @@ Potential extensions include:
 - Investigator feedback loops for model improvement
 - Deployment as a web-based investigation tool
 
-## 📄 License
-
-This project is released under the MIT License.
