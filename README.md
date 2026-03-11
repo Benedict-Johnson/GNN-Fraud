@@ -257,7 +257,3 @@ Potential extensions include:
 - Deployment as a web-based investigation tool
 
 ---
-
-## 📄 License
-
-This project is released under the [MIT License](LICENSE).
