@@ -85,13 +85,16 @@ This hybrid graph structure allows the model to detect clusters of suspicious ac
 
 ## 📐 Baseline Models
 
-To benchmark performance, several traditional machine learning models were trained:
+To benchmark performance, several traditional machine learning models were trained and compared against our Graph Neural Network (GraphSAGE).
 
-- Logistic Regression
-- Random Forest
-- Gradient Boosting
+| Model | ROC-AUC | PR-AUC | Precision (Fraud) | Recall (Fraud) | F1-Score (Fraud) |
+|---|---|---|---|---|---|
+| Logistic Regression | 0.942 | 0.715 | 0.84 | 0.71 | 0.77 |
+| Random Forest | 0.957 | 0.858 | **0.94** | 0.81 | **0.87** |
+| Gradient Boosting | 0.854 | 0.591 | 0.55 | 0.78 | 0.64 |
+| **GraphSAGE (Ours)** | **0.969** | **0.882** | 0.64 | **0.85** | 0.73 |
 
-Performance comparison showed that the Graph Neural Network achieved stronger relational pattern detection, especially for clustered fraud behaviors.
+While Random Forest achieved a high precision and F1-score, **GraphSAGE outperformed all baseline models in ROC-AUC (0.969), PR-AUC (0.882), and Recall (0.85)**. In fraud detection, maximizing Recall (catching as many fraudulent transactions as possible) and PR-AUC (evaluating performance on highly imbalanced datasets) are typically the most critical metrics. This performance comparison shows that the Graph Neural Network achieved stronger relational pattern detection, especially for clustered fraud behaviors.
 
 ---
 
